@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:IMCCodingTest.ViewModels"
+             x:Class="IMCCodingTest.Views.CreateOrderPage">
+    <ContentPage.BindingContext>
+        <vm:CreateOrderViewModel/>
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <StackLayout>
+            <!--
+            Note, this button was used during my work + testing, leaving it in place as a courtesy to those grading this coding test.
+            Uncomment and use if you are getting tired of filling out each field.-->
+            <!--<Button Text="AutoPop" Command="{Binding AutoPopulateCommand}"/>-->
+            
+            
+            <Label HorizontalOptions="Center">From Country</Label>
+            <Entry Keyboard="Text" Text="{Binding FromCountry}"/>
+
+            <Label HorizontalOptions="Center">From State</Label>
+            <Entry Keyboard="Text" Text="{Binding FromState}"/>
+
+            <Label HorizontalOptions="Center">From Zip</Label>
+            <Entry Keyboard="Text" Text="{Binding FromZip}"/>
+
+            <Label HorizontalOptions="Center">From City</Label>
+            <Entry Keyboard="Text" Text="{Binding FromCity}"/>
+
+            <Label HorizontalOptions="Center">From Street</Label>
+            <Entry Keyboard="Text" Text="{Binding FromStreet}"/>
+
+            <Label HorizontalOptions="Center">To Country</Label>
+            <Entry Keyboard="Text" Text="{Binding ToCountry}"/>
+
+            <Label HorizontalOptions="Center">ToState</Label>
+            <Entry Keyboard="Text" Text="{Binding ToState}"/>
+
+            <Label HorizontalOptions="Center">To Zip</Label>
+            <Entry Keyboard="Text" Text="{Binding ToZip}"/>
+
+            <Label HorizontalOptions="Center">To City</Label>
+            <Entry Keyboard="Text" Text="{Binding ToCity}"/>
+
+            <Label HorizontalOptions="Center">To Street</Label>
+            <Entry Keyboard="Text" Text="{Binding ToStreet}"/>
+
+            <Label HorizontalOptions="Center">Amount</Label>
+            <Entry Keyboard="Text" Text="{Binding Amount}"/>
+
+            <Label HorizontalOptions="Center">Shipping</Label>
+            <Entry Keyboard="Text" Text="{Binding Shipping}"/>
+
+            <Label HorizontalOptions="Center">Nexus Address Count</Label>
+            <Entry Text="{Binding AddressCount}" IsReadOnly="True"/>
+
+            <Button Text="Add Address" Command="{Binding AddAddressCommand}"/>
+            <Button Text="Clear Addresses" Command="{Binding ClearAddressesCommand}"/>
+
+            <Label HorizontalOptions="Center">Line Item Count</Label>
+            <Entry Text="{Binding LineItemCount}" IsReadOnly="True"/>
+            <Button Text="Add LineItem" Command="{Binding AddLineItemCommand}"/>
+            <Button Text="Clear LineItems" Command="{Binding ClearLineItemsCommand}"/>
+
+            <Button Text="Calculate Tax" Command="{Binding CalculateTaxCommand}"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

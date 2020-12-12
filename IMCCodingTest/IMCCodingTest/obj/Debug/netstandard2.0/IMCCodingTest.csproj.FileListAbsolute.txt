@@ -1,0 +1,17 @@
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\bin\Debug\netstandard2.0\IMCCodingTest.deps.json
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\bin\Debug\netstandard2.0\IMCCodingTest.dll
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\bin\Debug\netstandard2.0\ref\IMCCodingTest.dll
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\bin\Debug\netstandard2.0\IMCCodingTest.pdb
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\Views\CreateOrderPage.xaml.g.cs
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\Views\FrontPage.xaml.g.cs
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\IMCCodingTest.AssemblyInfoInputs.cache
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\IMCCodingTest.AssemblyInfo.cs
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\IMCCodingTest.csproj.CoreCompileInputs.cache
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\IMCCodingTest.dll
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\ref\IMCCodingTest.dll
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\IMCCodingTest.pdb
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\Views\AddAddressPage.xaml.g.cs
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\Views\AddLineItemPage.xaml.g.cs
+C:\Users\wlang\source\repos\IMCCodingTest\IMCCodingTest\IMCCodingTest\obj\Debug\netstandard2.0\Views\DisplayOutcomePage.xaml.g.cs

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IMCCodingTest.Views.DisplayOutcomePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label HorizontalOptions="Center">Result Code</Label>
+                <Label Text="{Binding ResponseCode}"/>
+
+                <Label HorizontalOptions="Center">Result Phrase</Label>
+                <Label Text="{Binding ResponsePhrase}"/>
+
+                <Label HorizontalOptions="Center">Output Json</Label>
+                <Label LineBreakMode="WordWrap" Text="{Binding OutputString}"/>
+
+                <Label HorizontalOptions="Center">Input Json</Label>
+                <Label LineBreakMode="WordWrap" Text="{Binding InputString}"/>
+
+                <Button Text = "OK" Command = "{Binding OKCommand}" />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

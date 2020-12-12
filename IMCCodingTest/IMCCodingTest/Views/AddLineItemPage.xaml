@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IMCCodingTest.Views.AddLineItemPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center">Id</Label>
+            <Entry Keyboard="Text" Text="{Binding Id}"/>
+
+            <Label HorizontalOptions="Center">Quantity</Label>
+            <Entry Keyboard="Text" Text="{Binding Quantity}"/>
+
+            <Label HorizontalOptions="Center">Product Tax Code</Label>
+            <Entry Keyboard="Text" Text="{Binding ProductTaxCode}"/>
+
+            <Label HorizontalOptions="Center">Unit Price</Label>
+            <Entry Keyboard="Text" Text="{Binding UnitPrice}"/>
+
+            <Label HorizontalOptions="Center">Discount</Label>
+            <Entry Keyboard="Text" Text="{Binding Discount}"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

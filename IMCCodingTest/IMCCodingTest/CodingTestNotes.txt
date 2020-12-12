@@ -1,0 +1,34 @@
+﻿Hello, this is Walter, leaving a few final notes in as I go to check in.
+
+I enjoyed this coding test a lot (to the degree that anyone enjoys work), thanks for giving it to me.  I think it was well made,
+and considerably trickier than I thought it would be at first glance.
+
+NOTE: I only have an android phone, so I only tested this app in Android, but I didn't do anything android specific.  If you added the .iOS and .UWP projects
+I expect (with the usual 'I haven't tested this' caveats) it would work on those devices just fine.
+
+I believe I've fulfilled the requirements in the doc, but I've certainly done so in a proof-of-concept/toy form.  I thought I'd leave behind a list of the
+next steps I think this app would need to become something useful.
+
+0. I'm prey to a notion that you can't have possibly meant for my 'unit test' of the calculator to actually query the service.  That seemed to be the gist of the
+response to the question I asked, and I chickened out on doubling down on asking for clarification, but it seems like it can't possibly be what you wanted. 
+What I'd usually do to unit test something like the calculator would be to make a fake service for it to call, verify that the proper inputs got the proper responses
+from our fake service.  So for a first/zeroth improvement I'd change the unit test so it didn't target the actual service.
+
+1. Data entry sanitization.  Presently I allow the user to enter basically anything and send it to the service, but there's no call to allow, for
+example, 10 character entries for Country Code.  I would use the UI to compel the user to enter only reasonable data, only letting them submit the data once it
+passed all my local verifiers.
+
+2. Next up, data entry optimization.  Having customers enter out long strings by hand, on a phone keyboard, is not something I want to do if I can avoid it.
+I'd want to get the user experience to be a much better one s, as well as less likely to cause errors.  Probably dropdown lists of the inputs where we
+can get away with it, auto-populates with 'favorite' information that each user could set, etc.  Anything to avoid making them manually enter up all these fields.
+
+3. UI improvement. My add/clear dichtonomy on line items and addresses is cute, but really you'd want to show the user the ones they'd already added, and delete
+them individually if they liked, or even modify them.  My gut instinct is a ListView with a template that allows a ListViewItem to show an Address/Line Item.  The
+page where I show the result from the server, also, is very much developer aesthetic, just text in boxes.  I'd want to use a UI to promote the parts of the
+data that the user would care about to their attention, hide away the raw JSON response.
+
+4. Expand to fill out the rest of the functionality.  The Taxjar API has plenty more endpoints, and the design mentions other APIs to be queried.  I'd add buttons
+to the front page to do more than just Calculate Taxes on orders, and expand the app laterally.
+
+Anyway, thanks again for your consideration.  I hope I hear back from you,
+-Walter Langendorf

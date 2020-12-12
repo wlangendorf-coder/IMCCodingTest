@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IMCCodingTest.Views.AddAddressPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center">Id</Label>
+            <Entry Keyboard="Text" Text="{Binding Id}"/>
+
+            <Label HorizontalOptions="Center">Country</Label>
+            <Entry Keyboard="Text" Text="{Binding Country}"/>
+
+            <Label HorizontalOptions="Center">Zip</Label>
+            <Entry Keyboard="Text" Text="{Binding Zip}"/>
+
+            <Label HorizontalOptions="Center">State</Label>
+            <Entry Keyboard="Text" Text="{Binding State}"/>
+
+            <Label HorizontalOptions="Center">City</Label>
+            <Entry Keyboard="Text" Text="{Binding City}"/>
+
+            <Label HorizontalOptions="Center">Street</Label>
+            <Entry Keyboard="Text" Text="{Binding Street}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
